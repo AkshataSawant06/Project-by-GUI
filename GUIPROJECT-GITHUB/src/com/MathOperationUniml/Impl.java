@@ -12,5 +12,8 @@ public class Impl implements Operation{
 		Impl i = new Impl();
 		i.add();
 	}
+	public void display() {
+		System.out.println("In display method");
+	}
 
 }
